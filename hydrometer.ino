@@ -53,8 +53,7 @@ void printValues()
 
     sprintf(str, "%s C", buff);    
     u8g2.drawStr(32,9, str);
-    u8g2.drawUTF8(82,6
-    , DEGREE_SYMBOL);
+    u8g2.drawUTF8(82,6, DEGREE_SYMBOL);
 
     u8g2.drawFrame(1,1,127,63);
     u8g2.drawLine(0,32, 128,32);
